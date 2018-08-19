@@ -1,8 +1,42 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
+html, body {
+  font-family: 'Geo', sans-serif;
+  text-align: center;
+  min-width: 260px;
+  background-color: #041318;
+  color: #ffffff;
 
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 20px;
+}
 a {
-  color: #00B7FF;
+  color: #be4f3d;
+}
+#main {
+  margin: 30px auto;
+  padding: 15px;
+}
+#img-div {
+  width: 100%;
+  padding: 20px;
+}
+#image {
+  height: auto;
+  width: auto;
+  border-radius: 5%;
+  object-fit: cover;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+  display: block;
 }

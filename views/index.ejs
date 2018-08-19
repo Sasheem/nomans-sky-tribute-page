@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tribute web page for the popular game No Man's Sky">
     <title><%= title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <main id="main">
+      <h1 id="title"><%= title %></h1>
+      <div id="img-div">
+        <a href="https://www.polygon.com/2018/5/17/17366886/no-mans-sky-multiplayer-next-update-release-date-xbox-one">
+          <img id="image" src="https://www.psu.com/app/uploads/2018/03/no-mans-sky-next-768x538.jpg" alt="Cover art for No Man's Sky"/>
+        </a>
+        <p id="img-caption">No Man’s Sky is a game about exploration and survival in an infinite procedurally generated galaxy.</p>
+      </div>
+      <div id="tribute-info">
+        <h3>
+          "If you have time, you should read more about this amazing game on this "
+          <a id="tribute-link" href="https://en.wikipedia.org/wiki/No_Man%27s_Sky" target="_blank">Wikipedia entry</a>
+          "."
+        </h3>
+      </div>
+    </main>
   </body>
 </html>
